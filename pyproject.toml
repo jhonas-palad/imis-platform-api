@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "imis-backend"
+version = "0.1.0"
+description = "imis backend part"
+authors = ["Jhonas Palad <jhonasemmanuel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.6"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^4.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
