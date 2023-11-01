@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app_platform',
+    'user_auth',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
@@ -87,7 +88,7 @@ DATABASES = {
 
 #AUTHENTICATION
 
-AUTH_USER_MODEL = "app_platform.User"
+AUTH_USER_MODEL = "user_auth.User"
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
