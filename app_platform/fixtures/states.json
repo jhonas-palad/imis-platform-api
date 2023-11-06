@@ -1,0 +1,740 @@
+[
+    {
+        "model": "app_platform.state",
+        "pk": 1,
+        "fields": {
+            "code": "012800000",
+            "name": "ILOCOS NORTE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 2,
+        "fields": {
+            "code": "012900000",
+            "name": "ILOCOS SUR",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 3,
+        "fields": {
+            "code": "013300000",
+            "name": "LA UNION",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 4,
+        "fields": {
+            "code": "015500000",
+            "name": "PANGASINAN",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 5,
+        "fields": {
+            "code": "020900000",
+            "name": "BATANES",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 6,
+        "fields": {
+            "code": "021500000",
+            "name": "CAGAYAN",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 7,
+        "fields": {
+            "code": "023100000",
+            "name": "ISABELA",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 8,
+        "fields": {
+            "code": "025000000",
+            "name": "NUEVA VIZCAYA",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 9,
+        "fields": {
+            "code": "025700000",
+            "name": "QUIRINO",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 10,
+        "fields": {
+            "code": "030800000",
+            "name": "BATAAN",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 11,
+        "fields": {
+            "code": "031400000",
+            "name": "BULACAN",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 12,
+        "fields": {
+            "code": "034900000",
+            "name": "NUEVA ECIJA",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 13,
+        "fields": {
+            "code": "035400000",
+            "name": "PAMPANGA",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 14,
+        "fields": {
+            "code": "036900000",
+            "name": "TARLAC",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 15,
+        "fields": {
+            "code": "037100000",
+            "name": "ZAMBALES",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 16,
+        "fields": {
+            "code": "037700000",
+            "name": "AURORA",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 17,
+        "fields": {
+            "code": "041000000",
+            "name": "BATANGAS",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 18,
+        "fields": {
+            "code": "042100000",
+            "name": "CAVITE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 19,
+        "fields": {
+            "code": "043400000",
+            "name": "LAGUNA",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 20,
+        "fields": {
+            "code": "045600000",
+            "name": "QUEZON",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 21,
+        "fields": {
+            "code": "045800000",
+            "name": "RIZAL",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 22,
+        "fields": {
+            "code": "174000000",
+            "name": "MARINDUQUE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 23,
+        "fields": {
+            "code": "175100000",
+            "name": "OCCIDENTAL MINDORO",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 24,
+        "fields": {
+            "code": "175200000",
+            "name": "ORIENTAL MINDORO",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 25,
+        "fields": {
+            "code": "175300000",
+            "name": "PALAWAN",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 26,
+        "fields": {
+            "code": "175900000",
+            "name": "ROMBLON",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 27,
+        "fields": {
+            "code": "050500000",
+            "name": "ALBAY",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 28,
+        "fields": {
+            "code": "051600000",
+            "name": "CAMARINES NORTE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 29,
+        "fields": {
+            "code": "051700000",
+            "name": "CAMARINES SUR",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 30,
+        "fields": {
+            "code": "052000000",
+            "name": "CATANDUANES",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 31,
+        "fields": {
+            "code": "054100000",
+            "name": "MASBATE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 32,
+        "fields": {
+            "code": "056200000",
+            "name": "SORSOGON",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 33,
+        "fields": {
+            "code": "060400000",
+            "name": "AKLAN",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 34,
+        "fields": {
+            "code": "060600000",
+            "name": "ANTIQUE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 35,
+        "fields": {
+            "code": "061900000",
+            "name": "CAPIZ",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 36,
+        "fields": {
+            "code": "063000000",
+            "name": "ILOILO",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 37,
+        "fields": {
+            "code": "064500000",
+            "name": "NEGROS OCCIDENTAL",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 38,
+        "fields": {
+            "code": "067900000",
+            "name": "GUIMARAS",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 39,
+        "fields": {
+            "code": "071200000",
+            "name": "BOHOL",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 40,
+        "fields": {
+            "code": "072200000",
+            "name": "CEBU",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 41,
+        "fields": {
+            "code": "074600000",
+            "name": "NEGROS ORIENTAL",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 42,
+        "fields": {
+            "code": "076100000",
+            "name": "SIQUIJOR",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 43,
+        "fields": {
+            "code": "082600000",
+            "name": "EASTERN SAMAR",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 44,
+        "fields": {
+            "code": "083700000",
+            "name": "LEYTE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 45,
+        "fields": {
+            "code": "084800000",
+            "name": "NORTHERN SAMAR",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 46,
+        "fields": {
+            "code": "086000000",
+            "name": "SAMAR (WESTERN SAMAR)",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 47,
+        "fields": {
+            "code": "086400000",
+            "name": "SOUTHERN LEYTE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 48,
+        "fields": {
+            "code": "087800000",
+            "name": "BILIRAN",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 49,
+        "fields": {
+            "code": "097200000",
+            "name": "ZAMBOANGA DEL NORTE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 50,
+        "fields": {
+            "code": "097300000",
+            "name": "ZAMBOANGA DEL SUR",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 51,
+        "fields": {
+            "code": "098300000",
+            "name": "ZAMBOANGA SIBUGAY",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 52,
+        "fields": {
+            "code": "101300000",
+            "name": "BUKIDNON",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 53,
+        "fields": {
+            "code": "101800000",
+            "name": "CAMIGUIN",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 54,
+        "fields": {
+            "code": "103500000",
+            "name": "LANAO DEL NORTE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 55,
+        "fields": {
+            "code": "104200000",
+            "name": "MISAMIS OCCIDENTAL",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 56,
+        "fields": {
+            "code": "104300000",
+            "name": "MISAMIS ORIENTAL",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 57,
+        "fields": {
+            "code": "112300000",
+            "name": "DAVAO DEL NORTE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 58,
+        "fields": {
+            "code": "112400000",
+            "name": "DAVAO DEL SUR",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 59,
+        "fields": {
+            "code": "112500000",
+            "name": "DAVAO ORIENTAL",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 60,
+        "fields": {
+            "code": "118200000",
+            "name": "DAVAO DE ORO (COMPOSTELA VALLEY)",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 61,
+        "fields": {
+            "code": "118600000",
+            "name": "DAVAO OCCIDENTAL",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 62,
+        "fields": {
+            "code": "124700000",
+            "name": "COTABATO (NORTH COTABATO)",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 63,
+        "fields": {
+            "code": "126300000",
+            "name": "SOUTH COTABATO",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 64,
+        "fields": {
+            "code": "126500000",
+            "name": "SULTAN KUDARAT",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 65,
+        "fields": {
+            "code": "128000000",
+            "name": "SARANGANI",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 66,
+        "fields": {
+            "code": "130000000",
+            "name": "METRO MANILA",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 67,
+        "fields": {
+            "code": "140100000",
+            "name": "ABRA",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 68,
+        "fields": {
+            "code": "141100000",
+            "name": "BENGUET",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 69,
+        "fields": {
+            "code": "142700000",
+            "name": "IFUGAO",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 70,
+        "fields": {
+            "code": "143200000",
+            "name": "KALINGA",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 71,
+        "fields": {
+            "code": "144400000",
+            "name": "MOUNTAIN PROVINCE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 72,
+        "fields": {
+            "code": "148100000",
+            "name": "APAYAO",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 73,
+        "fields": {
+            "code": "150700000",
+            "name": "BASILAN",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 74,
+        "fields": {
+            "code": "153600000",
+            "name": "LANAO DEL SUR",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 75,
+        "fields": {
+            "code": "153800000",
+            "name": "MAGUINDANAO",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 76,
+        "fields": {
+            "code": "156600000",
+            "name": "SULU",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 77,
+        "fields": {
+            "code": "157000000",
+            "name": "TAWI-TAWI",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 78,
+        "fields": {
+            "code": "160200000",
+            "name": "AGUSAN DEL NORTE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 79,
+        "fields": {
+            "code": "160300000",
+            "name": "AGUSAN DEL SUR",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 80,
+        "fields": {
+            "code": "166700000",
+            "name": "SURIGAO DEL NORTE",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 81,
+        "fields": {
+            "code": "166800000",
+            "name": "SURIGAO DEL SUR",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app_platform.state",
+        "pk": 82,
+        "fields": {
+            "code": "168500000",
+            "name": "DINAGAT ISLANDS",
+            "is_active": true
+        }
+    }
+]

@@ -49,6 +49,25 @@ files = [
 Django = ">=3.2"
 
 [[package]]
+name = "django-phonenumber-field"
+version = "7.2.0"
+description = "An international phone number field for django models."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "django-phonenumber-field-7.2.0.tar.gz", hash = "sha256:20c7c5c449e33eed5fd45ef8d3dc668faabaeff3277eddd1892b262d686ba381"},
+    {file = "django_phonenumber_field-7.2.0-py3-none-any.whl", hash = "sha256:16778f2717ea2aecc6178beb0d6bc431c78c6a8b0474e1fa8face040efeb6e9e"},
+]
+
+[package.dependencies]
+Django = ">=3.2"
+phonenumberslite = {version = ">=7.0.2", optional = true, markers = "extra == \"phonenumberslite\""}
+
+[package.extras]
+phonenumbers = ["phonenumbers (>=7.0.2)"]
+phonenumberslite = ["phonenumberslite (>=7.0.2)"]
+
+[[package]]
 name = "djangorestframework"
 version = "3.14.0"
 description = "Web APIs for Django, made easy."
@@ -62,6 +81,17 @@ files = [
 [package.dependencies]
 django = ">=3.0"
 pytz = "*"
+
+[[package]]
+name = "phonenumberslite"
+version = "8.13.24"
+description = "Python version of Google's common library for parsing, formatting, storing and validating international phone numbers."
+optional = false
+python-versions = "*"
+files = [
+    {file = "phonenumberslite-8.13.24-py2.py3-none-any.whl", hash = "sha256:1e03f7076ab2f010088b1b8041ebdc42acd3b797e8f45997ab1861cdaea76851"},
+    {file = "phonenumberslite-8.13.24.tar.gz", hash = "sha256:adce353ee15b75f2deccf0eff77bada2a3d036f49ccfb30b8c172dd814fd51e9"},
+]
 
 [[package]]
 name = "pytz"
@@ -104,4 +134,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "ebc048a142028198731b8d8d5a58587e17d18d2a56b63f152bd16bfce34d17e8"
+content-hash = "c0e17b535b8336c5a156aac7fe941e7991b827e0b2c8fc75eb01d88c707f54de"
