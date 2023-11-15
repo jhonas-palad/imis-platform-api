@@ -19,8 +19,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(
         _("email address"), 
         unique=True, 
-        db_index=True, 
-        validators=[EmailValidator()]
+        db_index=True
     ) 
     phone_number = PhoneNumberField(region="PH")
     # profile_img = models.FileField(
@@ -80,12 +79,12 @@ class Professional(models.Model):
     )
     service_area = models.ManyToManyField(
         to="app_platform.City",
-        related_name="professional_service_area"
+        related_name="professionals_multi_area"
     )
-    base_address = models.ForeignKey(
+    base_location = models.ForeignKey(
         to="app_platform.City",
         help_text=_("Specify the central location, or origin."),
-        related_name="professional_base_address",
+        related_name="professionals",
         on_delete=models.DO_NOTHING
     )
     about_me = models.TextField(_("about me"), null=True, blank=False)

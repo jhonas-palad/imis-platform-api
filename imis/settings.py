@@ -150,7 +150,7 @@ LOGGING = {
     },
     "formatters": {
         "verbose": {
-            "format" : "\033[36m{name}({levelname}): File {pathname}, line {lineno}, in {funcName}:\n{message}\n\033[32mEND [{created}]\033[0m",
+            "format" : "\033[36m{name}({levelname}): File {pathname}, line {lineno}, in {funcName}:\n{message}\n\033[36mEND [{created}]\033[0m",
             "style" : "{"
         },
         "verbose-debug": {
@@ -178,3 +178,5 @@ LOGGING = {
     }
 }
 
+#PHONENUMBER
+PHONENUMBER_DEFAULT_REGION = "PH"
